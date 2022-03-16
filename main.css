@@ -26,6 +26,13 @@ a {
     margin-left: 20px;
     text-decoration: none;
     color: black;
+    padding-bottom: 3px;
+}
+a:hover {
+    border-bottom: 2px solid red;
+}
+a:nth-child(1) {
+    border-bottom: 2px solid red;
 }
 
 main {
