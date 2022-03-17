@@ -70,7 +70,9 @@ div > a {
 main > img {
     width: 55%;
     background-color: aqua;
-    height: 300px;
-    float: right;
+    float: left;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
 
 }
