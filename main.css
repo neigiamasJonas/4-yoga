@@ -19,6 +19,7 @@ body > main {
     display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
+    margin-top: 20px;
 }
 
 header > img {
@@ -47,29 +48,39 @@ nav > a:nth-child(1) {
     border-bottom: 2px solid red;
 }
 
-main {
-    margin-top: 100px
+body > main {
+    margin-top: 100px;
 }
-
 main > div {
     width: 45%;
     float: left;
     padding-right: 10%;
 }
+h1 {
+    font-weight: normal;
+    font-family: cursive;
+    margin-bottom: 10px;
 
 }
-h1 {
-
+span {
+    color: tomato;
 }
 p {
+    margin-bottom: 50px;
 
 }
 div > a {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
 
 }
 main > img {
     width: 55%;
-    background-color: aqua;
     float: left;
     height: 400px;
     object-fit: contain;
